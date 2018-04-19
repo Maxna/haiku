@@ -5,7 +5,7 @@ class CountSyl {
     this.numbOfSyl = numbOfSyl;
   }
     letterCount() {
-    WordTest.result.length();
+    let long = WordTest.result.length();
     }
 }
 

@@ -13,13 +13,12 @@ describe('WordTest', function() {
 
   });
 
-  it('Should split word', function() {
-    let word = "bubble"
-    let bla = new WordTest(word);
+  it('Should count characters in WordTest', function() {
 
-    bla.splitWord();
-    console.log(bla.result);
-    expect(bla.result).toEqual([1]);
+    let counter = new CountSyl(long);
+
+    counter.letterCount();
+    console.log(long);
 
   });
 });
