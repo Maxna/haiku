@@ -1,9 +1,9 @@
-class WordTest {
+class DoubleTest {
   constructor(word) {
     this.word = word;
 		this.result = [];
   }
-  splitWord() {
+  doubleSplit() {
     this.word.split('');
     for (let i = 0; i < this.word.length -1; i++) {
       if (this.word[i +1] === this.word[i]) {
@@ -13,4 +13,4 @@ class WordTest {
   }
 }
 
-export {WordTest};
+export {DoubleTest};
