@@ -3,10 +3,9 @@ import { wordTest } from './../src/scripts.js';
 describe('wordTest', function() {
 
   it('Should split word', function() {
-    expect(wordTest).toEqual(["a", "t"]);
+    let bla = new wordTest('at');
+    bla.splitWord();
+    expect(bla.result).toEqual(["a", "t"]);
+    console.log(bla.result);
   });
-
-//   it('is a meaningful fail', function() {
-//     expect(meaningfulFail()).toEqual(1);
-//   })
-// });
+});

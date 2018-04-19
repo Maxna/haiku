@@ -7,7 +7,7 @@
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "watch": "webpack --watch",
-    "lint": "eslint src/*.js"
+    "lint": "eslint src/*.js --fix"
   },
   "repository": {
     "type": "git"
