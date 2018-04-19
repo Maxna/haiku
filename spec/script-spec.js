@@ -3,9 +3,12 @@ import { wordTest } from './../src/scripts.js';
 describe('wordTest', function() {
 
   it('Should split word', function() {
-    let bla = new wordTest('at');
+    let word = "bubble"
+    let bla = new wordTest(word);
+
     bla.splitWord();
-    expect(bla.result).toEqual(["a", "t"]);
     console.log(bla.result);
+    expect(bla.result).toEqual(["b"]);
+
   });
 });
